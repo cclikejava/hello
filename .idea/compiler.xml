@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="c180313_quicksort" />
         <module name="c180314_jersey" />
+        <module name="c180314_parsestr" />
         <module name="c180314_thread" />
         <module name="helloworld" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="c180313_quicksort" target="1.5" />
       <module name="c180314_jersey" target="1.5" />
+      <module name="c180314_parsestr" target="1.5" />
       <module name="c180314_thread" target="1.5" />
       <module name="helloworld" target="1.5" />
     </bytecodeTargetLevel>
