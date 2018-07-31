@@ -1,0 +1,11 @@
+package com.activemq.hello;
+/**
+ * activitymq  say helloworld
+ * @author CHENCHAO
+ *
+ */
+public class MqHello {
+
+	//步骤1导入activemq架包
+	
+}

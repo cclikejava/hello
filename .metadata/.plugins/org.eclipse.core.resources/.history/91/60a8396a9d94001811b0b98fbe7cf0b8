@@ -1,0 +1,27 @@
+package com.activemq.hello;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+/**
+ * 消息发送方
+ * 
+ * @author CHENCHAO
+ *
+ */
+public class Sender {
+
+	public static void main(String[] args) throws JMSException {
+		// 1.创建链接工厂 参数用户名 ，密码 ，默认端口
+		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnectionFactory.DEFAULT_USER,ActiveMQConnectionFactory.DEFAULT_PASSWORD,"tcp://127.0.0.1:61616");
+		// 2.利用连接工厂拿到连接
+		Connection connection = connectionFactory.createConnection();
+		// 3.利用connection来启动连接
+		connection.start();
+		// 4.利用Connection对象来创建Session
+	}
+
+}

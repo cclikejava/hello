@@ -1,0 +1,5 @@
+package com.activemq.hello;
+
+public class Sender {
+
+}
